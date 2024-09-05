@@ -1,6 +1,6 @@
-# TODO list API
+# HORA API
 
-This project is a Node.js and TypeScript-based API for creating tasks for students and to also enable them collaborate using special features. It includes functionality for creating accountability groups and partners and points for tracking progress.
+This project is a Node.js and TypeScript-based API for managing students productivity and to also enable them collaborate using special features. It includes functionality for creating accountability groups, progress bars, leaderboard and points for tracking progress.
 
 ## Features
 
@@ -42,6 +42,10 @@ This project is a Node.js and TypeScript-based API for creating tasks for studen
     ```env
     MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/mydatabase?retryWrites=true&w=majority
     PORT=8090
+    JWT_SECRET=your jwt secret
+    CLIENT_ID=Your google client id
+    CLIENT_SECRET=Your your client secret
+    SESSION_SECRET=Your session secret
     ```
 
 4. Start the server:
